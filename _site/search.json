@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jeff Buckley, PhD",
+    "section": "",
+    "text": "I am a researcher specializing in [Your Field]. My work focuses on [Topic A] and [Topic B]. Currently, I am based at [Institution]."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Jeff Buckley, PhD",
+    "section": "Education",
+    "text": "Education\nUniversity Name | Location PhD in [Field] | Sept 20XX - June 20XX\nUniversity Name | Location BA in [Field] | Sept 20XX - June 20XX"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Jeff Buckley, PhD",
+    "section": "Experience",
+    "text": "Experience\nInstitution | Role | 20XX - Present"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]

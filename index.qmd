@@ -1,7 +1,30 @@
 ---
-title: "jeffbuckleyphd_website"
+title: "Jeff Buckley, PhD"
+image: profile.jpg
+about:
+  template: jolla # Options: jolla, trestles, solana, marquee, or broadside
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/yourhandle
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/yourprofile
+    - icon: github
+      text: Github
+      href: https://github.com/jeffbuckleyphd
 ---
 
-This is a Quarto website.
+I am a researcher specializing in [Your Field]. My work focuses on [Topic A] and [Topic B]. Currently, I am based at [Institution].
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Education
+
+**University Name** | Location
+PhD in [Field] | Sept 20XX - June 20XX
+
+**University Name** | Location
+BA in [Field] | Sept 20XX - June 20XX
+
+## Experience
+
+**Institution** | Role | 20XX - Present
