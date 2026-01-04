@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "I coordinate and teach the following modules at [University Name]. Click a module to access the archive of lecture slides and reading lists.\n\n\n\n\n&lt;h5 class=\"card-title\"&gt;Research Methodology&lt;/h5&gt;\n&lt;p class=\"card-text\"&gt;An introduction to quantitative and qualitative methods for doctoral students.&lt;/p&gt;\n&lt;br&gt;\n&lt;a href=\"#\" class=\"btn btn-primary\"&gt;View Materials&lt;/a&gt;\n\n\n\n\n\n\n&lt;h5 class=\"card-title\"&gt;Academic Writing&lt;/h5&gt;\n&lt;p class=\"card-text\"&gt;Structuring arguments, publishing strategies, and the peer-review process.&lt;/p&gt;\n&lt;br&gt;\n&lt;a href=\"#\" class=\"btn btn-primary\"&gt;View Materials&lt;/a&gt;\n\n\n\n\n\n\n&lt;h5 class=\"card-title\"&gt;Research Ethics&lt;/h5&gt;\n&lt;p class=\"card-text\"&gt;Navigating GDPR, institutional approval, and ethical dilemmas in education.&lt;/p&gt;\n&lt;br&gt;\n&lt;a href=\"#\" class=\"btn btn-primary\"&gt;View Materials&lt;/a&gt;"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Jeff Buckley, PhD",
