@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Jeffrey Buckley, PhD",
@@ -26,5 +19,12 @@
     "title": "Jeffrey Buckley, PhD",
     "section": "Experience",
     "text": "Experience\nInstitution | Role | 20XX - Present"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   }
 ]
