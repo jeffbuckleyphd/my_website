@@ -229,7 +229,9 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/jeffbuckleyphd\.github\.io\/my_website\/");
+        var filterRegex = new RegExp("https:\/\/��j�e�f�f�b�u�c�k�l�e�y�p�h�d�\.�c�o�m�
+�
+�");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
