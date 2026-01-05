@@ -1,21 +1,31 @@
 project:
   type: website
+  output-dir: docs
+  resources:
+    - CNAME
 
 website:
-  title: "jeffbuckleyphd_website"
+  title: "Jeff Buckley, PhD"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-
+      - href: publications.qmd
+        text: Publications
+      - href: teaching/index.qmd
+        text: Teaching
+    right:
+      - icon: github
+        href: https://github.com/jeffbuckleyphd
+      - icon: linkedin
+        href: https://linkedin.com/in/your-profile
+      
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
     toc: true
-
-
-
+    # This script loads the Altmetric donuts
+    include-in-header:
+      text: |
+        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>

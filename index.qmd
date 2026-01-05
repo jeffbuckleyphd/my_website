@@ -1,5 +1,5 @@
 ---
-title: "Jeffrey Buckley, PhD"
+title: "Jeff Buckley, PhD"
 image: profile.jpg
 about:
   template: jolla # Options: jolla, trestles, solana, marquee, or broadside

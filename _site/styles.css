@@ -1,1 +1,25 @@
 /* css styles */
+
+/* Make the cards look cleaner */
+.card {
+  border: 1px solid #e9ecef;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+/* Add a tiny "lift" effect when you hover over a module */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+/* Make the buttons match your Cosmo blue but softer */
+.btn-primary {
+  background-color: #2780e3; /* Cosmo Blue */
+  border: none;
+}
+
+/* Add more breathing room to the main text */
+body {
+  line-height: 1.7;
+}

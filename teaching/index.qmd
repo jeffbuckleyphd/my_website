@@ -1,0 +1,63 @@
+---
+title: "Teaching"
+---
+
+I coordinate and lecture across the following modules. Below, you can access up to date teaching materials for each.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-3 style="text-align: center;"}
+![](/images/hexagon_grey.png){width=150}
+:::
+
+::: {.g-col-12 .g-col-md-9}
+### Research Ethics {.text-primary}
+<span class="text-muted">RES09073 | Technological University of the Shannon: Midlands Midwest</span>
+
+Critically reflect on research practices, from questionable research practices and open science, to informed consent and ethical philosophies.
+
+<br>
+<a href="module_ethics.qmd" class="btn btn-outline-primary" role="button">View Materials</a>
+:::
+
+:::
+
+---
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-3 style="text-align: center;"}
+![](/images/hexagon_grey.png){width=150}
+:::
+
+::: {.g-col-12 .g-col-md-9}
+### Academic Writing {.text-primary}
+<span class="text-muted">RES09074 | Technological University of the Shannon: Midlands Midwest</span>
+
+Explore the academic publishing landscape from structuring empirical manuscripts and research theses, through critiquing the peer review process and developing research impact statements.
+
+<br>
+<a href="module_writing.qmd" class="btn btn-outline-primary" role="button">View Materials</a>
+:::
+
+:::
+
+---
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-3 style="text-align: center;"}
+![](/images/hexagon_grey.png){width=150}
+:::
+
+::: {.g-col-12 .g-col-md-9}
+### Research Methodology {.text-primary}
+<span class="text-muted">RES09075 | Technological University of the Shannon: Midlands Midwest</span>
+
+Develop a broad understanding of research methodology, considering research paradigms, methodological alignment, theories on the nature of knowledge, research credibility, and common quantitative, qualitative, and mixed methods designs.
+
+<br>
+<a href="module_methodology.qmd" class="btn btn-outline-primary" role="button">View Materials</a>
+:::
+
+:::

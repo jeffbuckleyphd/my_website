@@ -1,0 +1,11 @@
+---
+title: "Research Ethics"
+subtitle: "RES09073 | TUS: Midlands Midwest"
+---
+
+## Lecture Slides
+These files are updated each semester the module is offered. Click to download.
+
+| Week | Topic | Slides |
+|:---|:---|:---|
+| 1 | The roles of higher education institutions and academics | [Download PPTX](teaching_materials\research_ethics\the_roles_of_higher_education_institutions_and_academics.pptx) |
