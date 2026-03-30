@@ -1,13 +1,12 @@
 /* css styles */
 
-/* Container: Back to your original Flexbox, ensuring it stays on one row */
-/* 1. Ensure the main container is full width */
+/* Publication filter buttons */
+
 .pub-filter-bar {
   width: 100% !important;
   margin: 1rem 0 1.25rem 0;
 }
 
-/* 2. Apply Flexbox to the hidden <p> tag Quarto creates */
 .pub-filter-bar p, 
 .pub-filter-bar { 
   display: flex !important;
@@ -19,10 +18,9 @@
   margin-bottom: 1rem;
 }
 
-/* 3. Force the buttons to take exactly equal shares of the space */
 .pub-filter-button {
   flex: 1 1 0 !important;
-  width: 100% !important; /* Forces them to expand and divide evenly */
+  width: 100% !important; 
   min-width: 0 !important;
   
   display: inline-flex;
@@ -44,8 +42,6 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
-/* --- Hover, Active, and Focus States (Unchanged) --- */
 
 .pub-filter-button:hover {
   text-decoration: none;
@@ -78,4 +74,51 @@
 
 .pub-filter-button.active {
   pointer-events: none;
+}
+
+/* 1. Target the hidden paragraph wrapping the link */
+.pillar-card p:has(.pillar-pub-link) {
+  margin-top: 1.25rem !important; /* Adds the extra space BEFORE the link */
+  margin-bottom: 0 !important;    /* Completely removes the space AFTER the link */
+}
+
+/* 2. The Link Itself */
+.pillar-pub-link {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #495057; 
+  text-decoration: none;
+  transition: color 0.2s ease;
+  margin: 0 !important; /* Resetting this so the paragraph handles the spacing */
+}
+
+.pillar-pub-link:hover {
+  color: #0a58ca; 
+}
+
+.pillar-pub-link::after {
+  content: " \2192"; 
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.pillar-pub-link:hover::after {
+  transform: translateX(4px);
+}
+
+/* 3. Typography tweaks (Ensure these are NOT set to 2rem!) */
+.interest-heading { 
+  font-weight: 700; 
+  font-size: 0.8rem; 
+  text-transform: uppercase; 
+  letter-spacing: 0.5px; 
+  color: #6c757d; 
+    
+  /* THE SLEDGEHAMMER: A negative margin pulls the heading UP, eating the empty space */
+  margin-top: -5.5rem !important;   
+  
+  padding-top: 0.5rem !important; 
+  margin-bottom: 0.5rem !important; 
+  border-top: 1px solid #f1f3f5; 
 }
