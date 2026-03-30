@@ -1,1 +1,81 @@
 /* css styles */
+
+/* Container: Back to your original Flexbox, ensuring it stays on one row */
+/* 1. Ensure the main container is full width */
+.pub-filter-bar {
+  width: 100% !important;
+  margin: 1rem 0 1.25rem 0;
+}
+
+/* 2. Apply Flexbox to the hidden <p> tag Quarto creates */
+.pub-filter-bar p, 
+.pub-filter-bar { 
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  width: 100% !important;
+  gap: 0.45rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* 3. Force the buttons to take exactly equal shares of the space */
+.pub-filter-button {
+  flex: 1 1 0 !important;
+  width: 100% !important; /* Forces them to expand and divide evenly */
+  min-width: 0 !important;
+  
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.38rem 0.75rem;
+  border: 1px solid #d0d7de;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.15;
+  color: #1f2937;
+  background-color: #ffffff;
+  transition: all 0.2s ease;
+  
+  /* Text handling */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* --- Hover, Active, and Focus States (Unchanged) --- */
+
+.pub-filter-button:hover {
+  text-decoration: none;
+  background-color: #f3f4f6;
+  border-color: #bfc7cf;
+  color: #111827;
+}
+
+.pub-filter-button:visited {
+  color: #1f2937;
+}
+
+.pub-filter-button.active,
+.pub-filter-button.active:visited {
+  background-color: #1f2937;
+  color: #ffffff;
+  border-color: #1f2937;
+}
+
+.pub-filter-button.active:hover {
+  background-color: #111827;
+  border-color: #111827;
+  color: #ffffff;
+}
+
+.pub-filter-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(31, 41, 55, 0.15);
+}
+
+.pub-filter-button.active {
+  pointer-events: none;
+}
