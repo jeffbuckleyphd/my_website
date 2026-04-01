@@ -195,3 +195,18 @@
   color: #6b7280;
   margin-bottom: 0.45rem;
 }
+
+.scholar-intro-row {
+  align-items: start;
+  gap: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.scholar-intro-row p:first-child {
+  margin-top: 0;
+}
+
+.scholar-intro-row .scholar-mini-panel {
+  margin-top: 0;
+  max-width: 100%;
+}
