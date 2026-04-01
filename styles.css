@@ -136,3 +136,62 @@
     /* Adds a soft, slightly spread-out dark shadow underneath */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
 }
+
+/* Scholar panel */
+
+.scholar-mini-panel {
+  margin: 1rem 0 1.25rem 0;
+  padding: 0.75rem 0.95rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #fafafa;
+  max-width: 360px;
+}
+
+.scholar-mini-title {
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #374151;
+  margin-bottom: 0.55rem;
+}
+
+.scholar-mini-metrics {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 0.45rem;
+}
+
+.scholar-mini-metric {
+  display: flex;
+  flex-direction: column;
+  min-width: 80px;
+}
+
+.scholar-mini-value {
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #111827;
+}
+
+.scholar-mini-label {
+  font-size: 0.72rem;
+  color: #6b7280;
+}
+
+.scholar-mini-link {
+  font-size: 0.74rem;
+  text-decoration: none;
+}
+
+.scholar-mini-link:hover {
+  text-decoration: underline;
+}
+
+.scholar-mini-unavailable {
+  font-size: 0.78rem;
+  color: #6b7280;
+  margin-bottom: 0.45rem;
+}
