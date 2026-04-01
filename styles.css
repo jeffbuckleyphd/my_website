@@ -158,7 +158,7 @@
 
 .scholar-mini-metrics {
   display: flex;
-  gap: 1rem;
+  gap: 0.8rem;
   align-items: center;
   margin-bottom: 0.45rem;
 }
@@ -166,7 +166,7 @@
 .scholar-mini-metric {
   display: flex;
   flex-direction: column;
-  min-width: 80px;
+  min-width: 68px;
 }
 
 .scholar-mini-value {
