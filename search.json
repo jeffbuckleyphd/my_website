@@ -294,11 +294,18 @@
     "text": "Below are my latest insights and updates from LinkedIn."
   },
   {
-    "objectID": "news.html#news-feed",
-    "href": "news.html#news-feed",
+    "objectID": "news.html#featured-insights",
+    "href": "news.html#featured-insights",
     "title": "Latest Updates",
-    "section": "News Feed",
-    "text": "News Feed\n\nMarch 2026 Featured Insight\n\n\n\nPost 2\n\n\n\nPost 3"
+    "section": "Featured Insights",
+    "text": "Featured Insights\n\n\n\n\n\n\n View All Activity on LinkedIn →"
+  },
+  {
+    "objectID": "news.html#about-this-feed",
+    "href": "news.html#about-this-feed",
+    "title": "Latest Updates",
+    "section": "About this Feed",
+    "text": "About this Feed\nI use this space to mirror my professional updates. You can follow my full activity directly on my LinkedIn profile.\nCheck back regularly for new project deep-dives and broader reflections on research, publishing, and educational development."
   },
   {
     "objectID": "presentations_and_workshops.html",
